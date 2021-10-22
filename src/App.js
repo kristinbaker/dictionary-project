@@ -10,7 +10,7 @@ function App() {
       <div className="App-body">What word do you want to look up? </div>
       <Dictionary />
       <footer className="App-footer"><small>
-        This page was coded by Kristin Baker, is open-sourced on Github, and is hosted by Netlify
+        This page was coded by Kristin Baker, is open-sourced on Github and hosted by Netlify
         </small>
       </footer>
     </div>
