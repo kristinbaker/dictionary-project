@@ -4,12 +4,16 @@ import axios from "axios";
 
 import "./Dictionary.css"
 
+import Results from "./Results";
+
 export default function Dictionary(){
     let [keyword, setKeyword]= useState("")
+    let [results, setResults]=useState(null)
 
 
     function handleResponse(response){
-        console.log(response.data[0]);
+        console.log(response.data);
+        setResults(response.data[0]);
     }
 
     function search(event){
@@ -27,6 +31,7 @@ export default function Dictionary(){
 
         <div className="Dictionary">
         <form onSubmit={search} onChange={handleKeyword} > <input className="Search-Form" type="search" placeholder="Search for a word"/> </form>
+        <Results results={results} /> 
         </div>
        
     ); 
