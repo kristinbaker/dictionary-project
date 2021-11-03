@@ -1,0 +1,17 @@
+.phonetic-text {
+    font-size: 20px;
+    color: #B3604F;
+}
+
+.phonetic-audio a {
+   color:#E6AD90;
+   text-decoration: none;
+   border: solid;
+   border-radius: 100px;
+   
+}
+
+.phonetic-audio a:hover {
+    color:#B3604F;
+    
+ }

@@ -1,3 +1,14 @@
-.Results{
+.results{
     text-align: left;
+}
+
+.results section {
+    border-radius: 8px;
+    background-color: #F6F4EC;
+    padding: 20px 30px;
+    margin: 20px 30px;
+}
+
+.results .word {
+    font-size: 30px;
 }

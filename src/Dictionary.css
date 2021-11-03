@@ -1,9 +1,27 @@
-.Dictionary{
+.search{
  text-align: center;
- margin: 0 auto;
+ background: #A9AE8C;
+ border-radius: 6px;;
+ 
 }
 
-.Search-Form {
+.search-form {
     text-align: center;
-    margin: 0 auto;
+    margin: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    border-width: .5px;
+    background-color: #F6F4EC;
+    color:#B3604F;
+    padding: 30px;
+}
+
+input.search-form::placeholder{
+    color:#B3604F;
+}
+
+.search-container{
+    margin: 0px 30px;
+    padding: 10px 30px;
+    
 }
