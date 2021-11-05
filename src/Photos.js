@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Photos.css";
 
-export default function (props){
+export default function Photo (props){
 
 if (props.photos)
    { return (
@@ -13,7 +13,7 @@ if (props.photos)
         return(
             <div className="col-4" key={index}>
             <a href={photo.src.original} target="_blank" rel="noreferrer">
-            <img src={photo.src.landscape} className="img-fluid"></img>
+            <img src={photo.src.landscape} className="img-fluid" alt=""></img>
             </a>
 
             </div>
