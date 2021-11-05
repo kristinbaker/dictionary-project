@@ -2,18 +2,27 @@ import React from "react";
 
 import "./Phonetic.css";
 
-export default function Phonetic (props){
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { faVolumeDown } from '@fortawesome/free-solid-svg-icons';
+
+export default function Phonetic(props){
     if (props.phonetic) {
         return (
             <div className="phonetic">
-                <div className="phonetic-text">
+                <span className="phonetic-audio">
+            
+                    {props.phonetic.audio && <a href={props.phonetic.audio} target="_blank" rel="noreferrer" > <FontAwesomeIcon icon={faVolumeDown} />  </a>}
+                 
+                </span>
+               <div className="phonetic-text">
                 /{props.phonetic.text}/
-                 </div>
-                 <div className="phonetic-audio">
-                <a href={props.phonetic.audio} target="_blank" rel="noreferrer" > audio image  </a>
                 </div>
-         </div> );
+            </div>
+         );
     } else {
-        return null
-    }
-}
+        return null;
+    } 
+
+   }
+

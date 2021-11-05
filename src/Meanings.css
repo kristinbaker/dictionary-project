@@ -1,11 +1,17 @@
 
 .definition{
-    margin: 30px 40px 0;
+    margin: 20px 40px 10px;
     color: #B3604F;
+    font-size: 20px;
 }
 
 .example{
     margin: 0 40px;
     display: inline-block;
     color: #707579;
+    font-size: 14px;
+}
+
+.part-of-speech{
+    font-weight:400;
 }

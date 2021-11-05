@@ -7,8 +7,10 @@
     background-color: #F6F4EC;
     padding: 20px 30px;
     margin: 20px 30px;
+
 }
 
 .results .word {
-    font-size: 30px;
+    font-size: 40px;
+    font-weight:400;
 }
