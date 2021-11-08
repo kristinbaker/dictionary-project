@@ -10,6 +10,7 @@ export default function Phonetic(props){
     if (props.phonetic) {
         return (
             <div className="phonetic">
+
                 <span className="phonetic-audio">
             
                     {props.phonetic.audio && <a href={props.phonetic.audio} target="_blank" rel="noreferrer" > <FontAwesomeIcon icon={faVolumeDown} />  </a>}
@@ -18,6 +19,7 @@ export default function Phonetic(props){
                <div className="phonetic-text">
                 /{props.phonetic.text}/
                 </div>
+                
             </div>
          );
     } else {

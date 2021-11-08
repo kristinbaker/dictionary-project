@@ -1,10 +1,11 @@
 .phonetic {
     display: inline-flex;
 }
+
 .phonetic-text {
     font-size: 20px;
     color: #B3604F;
-    margin-left: 40px;
+    margin-left: 27px;
    
 }
 
@@ -12,7 +13,7 @@
 .phonetic-audio a {
    color:#E6AD90;
    text-decoration: none;
-   margin-right: 0;
+   margin-right: -15px;
    padding-right: 0;
    display: inline-flex;
    font-size: 25px;

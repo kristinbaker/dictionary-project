@@ -3,8 +3,6 @@
  background: #A9AE8C;
  border-radius: 6px;
  padding-bottom: 80px;
-
-
  
 }
 
@@ -19,7 +17,7 @@
     padding: 10px 0;
     margin: 0 auto;
     margin-top: 30px;
-    max-width: 40%;
+    
  
 }
 
@@ -48,6 +46,9 @@ input.input::placeholder{
     border: none;
     background-color: #F6F4EC;
     color:#B3604F;
+    text-align: left;
+    padding-left: 15px;
+
 }
 
 

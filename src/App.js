@@ -14,7 +14,7 @@ function App() {
       <main className="app-main"> What word do you want to look up?</main>  
       <Dictionary />
       <footer className="app-footer"><small>
-        This page was coded by Kristin Baker, is <a href="https://github.com/kristinbaker/dictionary-project">open-sourced on Github </a> and <a href="https://agitated-brown-f53079.netlify.app/">hosted by Netlify</a>
+        This page was coded by Kristin Baker, is <a href="https://github.com/kristinbaker/dictionary-project" target="_blank" rel="noreferrer">open-sourced on Github </a> and <a href="https://agitated-brown-f53079.netlify.app/" target="_blank" rel="noreferrer">hosted by Netlify</a>
         </small>
       </footer>
     </div>
